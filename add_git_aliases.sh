@@ -10,6 +10,10 @@ git config --global alias.db 'branch -d'
 git config --global alias.dbf 'branch -D'
 git config --global alias.pb 'remote prune origin'
 
+# verkada-specific
+# submodule alias
+git config --global alias.smu 'submodule update --init --recursive'
+
 # set nano as git editor
 git config --global core.editor "nano"
 
